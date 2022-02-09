@@ -1,0 +1,50 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+    
+   #heading {
+    color:red;
+    /* background-color: yellowgreen;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.header{
+    /* text-align: center;*/
+    background: orange;
+    padding: 15px;
+    margin: 10px;
+    /*border: 2px solid blue;*/
+    border-radius: 5px;
+    width: 80%;
+    height: 400px;
+    /*background-image:url(../download\ \(1\).jfif);*/
+    background-size: cover;
+    box-shadow: 20px 20px 20px ;
+    overflow:scroll;
+    opacity:1;
+   
+   
+}
+p{ 
+    line-height: 1.8;
+    color: white;
+}
+ul{
+    list-style-type: square;
+}
+.wrapper{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 40px;
+    transition: background 2s ease-in;
+}
+.wrapper:hover{
+    background: blue;
+
+}
+input:focus{
+    border: 2px solid green;
+}
+    
